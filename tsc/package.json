@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "@example/tsc",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

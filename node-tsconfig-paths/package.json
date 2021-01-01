@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@example/node-tsconfig-paths",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env TS_NODE_PROJECT=jsconfig.json node -r tsconfig-paths/register src/index.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "tsconfig-paths": "^3.9.0"
+  }
+}

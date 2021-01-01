@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@example/node-experimental-loader",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env IMPORT_MAP_PATH=import-map.json node --experimental-loader @node-loader/import-maps src/index.mjs"
+  },
+  "devDependencies": {
+    "@node-loader/import-maps": "^1.0.3",
+    "cross-env": "^7.0.3"
+  }
+}

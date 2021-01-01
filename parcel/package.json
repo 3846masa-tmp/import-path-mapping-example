@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@example/parcel",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@example/awesome-package": "file:awesome-package",
+    "parcel": "^1.12.4"
+  }
+}

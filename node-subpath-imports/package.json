@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@example/node-subpath-imports",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "type": "module",
+  "imports": {
+    "#~/*": "./src/*.mjs"
+  }
+}

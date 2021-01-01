@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@example/postcss",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/index.css -o dist/index.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "postcss-import-resolver": "^2.0.0"
+  }
+}
